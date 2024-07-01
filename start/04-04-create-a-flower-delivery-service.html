@@ -9,6 +9,39 @@
 </head>
 
 <body>
+  <form action="" method="post"></form>
+  <div>
+    <h2>Recipient Details</h2>
+    <label for="RecName">Full Name</label><br>
+    <input type="text" id="RecName"> <br>
+    <label for="phone">Telephone Number</label><br>
+    <input type="tel" id="phone"><br>
+    <label for="address">Address</label><br>
+    <input type="text" id="address">
+  </div>
+
+  <div>
+    <h2>Sender Details</h2>
+    <label for="SendName">Full Name</label><br>
+    <input type="text" id="SendName"><br>
+    <label for="emai">Email address</label><br>
+    <input type="email" id="email">
+  </div>
+  
+  <div></div>
+    <h2>Order</h2>
+    <label for="selecting">Bouquet Type</label>
+    <select name="selectingBouquet" id="selecting">
+      <option value="basic">Basic Bouquet - $24.99</option>
+      <option value="premium">Premium Bouquet - $49.99</option>
+      <option value="premChoc">Premium Bouquet + Chocolate - $69.99</option>
+    </select>
+
+  <div>
+    <label for="message">Message</label><br>
+    <textarea name="messageArea" id="message"></textarea><br>
+    <button type="submit">Submit</button>
+  </div>
   
 </body>
 
